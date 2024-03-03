@@ -32,6 +32,7 @@ public class Menu extends JFrame {
     }
     public void anadirPanel(JPanel panel){
         add(panel,BorderLayout.CENTER);
+        panel.setVisible(true);
     }
 
     public JMenu getConf() {
